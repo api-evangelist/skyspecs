@@ -1,8 +1,30 @@
 aid: skyspecs
 name: SkySpecs
-description: SkySpecs is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SkySpecs is a renewable energy asset management company based in Ann Arbor,
+  Michigan that combines autonomous drone inspections, condition-monitoring
+  hardware, and its cloud-based Horizon software platform to help wind and solar
+  operators manage the health and performance of their assets. Horizon
+  consolidates blade inspection imagery, drivetrain and sensor data, SCADA-based
+  performance analytics, repair-vendor coordination, and financial reporting
+  into one hub, with third-party data ingestion and custom integrations for
+  fleet owners. The company reports assets under contract across six countries
+  and is backed by Goldman Sachs Asset Management. SkySpecs exposes no public
+  developer API, SDK, or self-serve developer portal today; integrations are
+  arranged directly with the Horizon team.
 url: https://raw.githubusercontent.com/api-evangelist/skyspecs/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://skyspecs.com/wp-content/uploads/2021/10/SkySpecs_logo_icon.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Renewable Energy
+- Wind Energy
+- Solar Energy
+- Asset Management
+- Condition Monitoring
+- Drone Inspection
+- Analytics
+- Energy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,24 @@ maintainers:
 common:
 - type: Website
   url: https://skyspecs.com/
+- type: Blog
+  url: https://skyspecs.com/blog/
+- type: Support
+  url: https://support.skyspecs.com/
+- type: PrivacyPolicy
+  url: https://skyspecs.com/privacy-policy/
+- type: TrustCenter
+  url: https://security.skyspecs.com/
+- type: Compliance
+  url: https://security.skyspecs.com/
+- type: TrustCenter
+  name: Trust Center (artifact)
+  url: security/skyspecs-trust-center.yml
+- type: DomainSecurity
+  name: Domain Security
+  url: security/skyspecs-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
